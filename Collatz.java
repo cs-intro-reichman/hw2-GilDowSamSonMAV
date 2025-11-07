@@ -24,10 +24,10 @@ public class Collatz {
 
 			}
 
-			System.out.println("Every one of the first " + First + " hailstone sequnces reached 1.");
+			System.out.println("Every one of the first " + First + " hailstone sequences reached 1.");
 		}
 		if (vorc.equals("c")) {
-			System.out.println("Every one of the first " + First + " hailstone sequnces reached 1.");
+			System.out.println("Every one of the first " + First + " hailstone sequences reached 1.");
 		}
 
 	}
