@@ -8,11 +8,15 @@ public class Cheers {
                 
 
                 while (i < R.length()) {
-
+                        
                         if (s.indexOf(R.charAt(i)) == -1) {
-                                System.out.println("Give me a " + R.charAt(i) + ": " + R.charAt(i) + "!");
+                                char x = R.charAt(i);
+                                char upper = Character.toUpperCase(x);
+                                System.out.println("Give me a " + upper + ": " + upper + "!");
                         } else {
-                                System.out.println("Give me an " + R.charAt(i) + ": " + R.charAt(i) + "!");
+                                  char x = R.charAt(i);
+                                char upper = Character.toUpperCase(x);
+                                System.out.println("Give me an " + upper + ": " + upper + "!");
                         }
                         i++;
                         
@@ -24,7 +28,7 @@ public class Cheers {
 
                 do {
 
-                        System.out.println(R + " ! ! !");
+                        System.out.println(R.toUpperCase() + " ! ! !");
 
                         q++;
                 } while (q < f);
