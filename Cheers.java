@@ -11,6 +11,8 @@ public class Cheers {
                 }
                 System.out.println("What does that spell?");
                         System.out.println(R + " ! ! !");
+                        System.out.println(R + " ! ! !");
+                        System.out.println(R + " ! ! !");
 
         }
 
