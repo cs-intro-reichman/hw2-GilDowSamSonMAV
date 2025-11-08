@@ -22,7 +22,7 @@ public class TimeCalc {
             }
         }
 
-        if (newHours == 00) {
+        if (newHours < 10) {
             if (newMinutes < 10) {
                 System.out.println(newHours + "0:0" + newMinutes);
             } else {
