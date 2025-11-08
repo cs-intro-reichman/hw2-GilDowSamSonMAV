@@ -3,8 +3,8 @@ public class TestRandom {
 	public static void main(String[] args) {
 
 		int N = Integer.parseInt(args[0]);
-		int countlessthanHalf = 0;
-		int countgreaterthanhalf = 0;
+		double countlessthanHalf = 0;
+		double countgreaterthanhalf = 0;
 
 		for (int i = 0; i < N; i++) {
 			if (Math.random() < 0.5) {
@@ -17,8 +17,16 @@ public class TestRandom {
 			}
 
 		}
-		System.out.println("> 0.5:  " + countlessthanHalf + " times");
-		System.out.println("<= 0.5: " + countgreaterthanhalf + " times");
+		double e = countlessthanHalf / countgreaterthanhalf;
+
+		if (e != 0) {
+			System.out.println("> 0.5:  " + countlessthanHalf + " times");
+			System.out.println("<= 0.5: " + countgreaterthanhalf + " times");
+			System.out.println("Ratio:  " + e);
+		} else {
+			System.out.println("> 0.5:  " + countlessthanHalf + " times");
+			System.out.println("<= 0.5: " + countgreaterthanhalf + " times");
+		}
 
 	}
 }

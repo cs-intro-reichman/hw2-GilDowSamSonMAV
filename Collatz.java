@@ -20,14 +20,14 @@ public class Collatz {
 				} while (y != 1);
 
 				count++;
-				System.out.println(y + "(" + count + ")");
+				System.out.println(y + " (" + count + ")");
 
 			}
 
-			System.out.println("Every one of the first " + First + " hailstone sequences reached 1.");
+			System.out.println("Every one of the first " + First + " hailstone sequences reached 1");
 		}
 		if (vorc.equals("c")) {
-			System.out.println("Every one of the first " + First + " hailstone sequences reached 1.");
+			System.out.println("Every one of the first " + First + " hailstone sequences reached 1");
 		}
 
 	}
