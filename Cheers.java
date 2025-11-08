@@ -10,9 +10,9 @@ public class Cheers {
                 while (i < R.length()) {
 
                         if (s.indexOf(R.charAt(i)) == -1) {
-                                System.out.println("Give me a " + R.charAt(i) + ": " + R.charAt(i) + " !");
+                                System.out.println("Give me a " + R.charAt(i) + ": " + R.charAt(i) + "!");
                         } else {
-                                System.out.println("Give me an " + R.charAt(i) + ": " + R.charAt(i) + " !");
+                                System.out.println("Give me an " + R.charAt(i) + ": " + R.charAt(i) + "!");
                         }
                         i++;
                         
