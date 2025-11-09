@@ -24,7 +24,7 @@ public class Cheers {
              
 
                 for (int q = 0 ; q < f ; q++) {
-                        System.out.println(R + "!!!");
+                        System.out.println(R.toUpperCase() + "!!!");
                     
                 }
         }
