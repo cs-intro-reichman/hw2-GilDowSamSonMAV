@@ -26,9 +26,9 @@ public class Collatz {
 				System.out.println(" ");
 
 			}
-			System.out.println("Every one of the first " + First + " hailstone sequneces reached 1.");
+			System.out.println("Every one of the first " + First + " hailstone sequences reached 1.");
 		} else {
-			System.out.println("Every one of the first " + First + " hailstone sequneces reached 1.");
+			System.out.println("Every one of the first " + First + " hailstone sequences reached 1.");
 		}
 	}
 }
