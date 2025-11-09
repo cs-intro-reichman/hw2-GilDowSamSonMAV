@@ -12,11 +12,11 @@ public class Cheers {
                         if (s.indexOf(R.charAt(i)) == -1) {
                                 char x = R.charAt(i);
                                 char upper = Character.toUpperCase(x);
-                                System.out.println("Give me a " + upper + ": " + upper + "!");
+                                System.out.println("Give me an " + upper + ": " + upper + "!");
                         } else {
                                   char x = R.charAt(i);
                                 char upper = Character.toUpperCase(x);
-                                System.out.println("Give me an " + upper + ": " + upper + "!");
+                                System.out.println("Give me a " + upper + ": " + upper + "!");
                         }
                         i++;
                         
