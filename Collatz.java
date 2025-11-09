@@ -23,7 +23,7 @@ public class Collatz {
 				} while (y != 1);
 				System.out.print(" (" + count + ")");
 
-				System.out.println(" ");
+				System.out.println("");
 
 			}
 			System.out.println("Every one of the first " + First + " hailstone sequences reached 1.");
