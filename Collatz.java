@@ -1,4 +1,4 @@
-// Demonstrates the Collatz conjecture.
+
 public class Collatz {
 	public static void main(String args[]) {
 		int First = Integer.parseInt(args[0]);
@@ -21,7 +21,7 @@ public class Collatz {
 					count++;
 
 				} while (y != 1);
-				System.out.print(" (" + count + ") ");
+				System.out.print(" (" + count + ")");
 
 				System.out.println(" ");
 
