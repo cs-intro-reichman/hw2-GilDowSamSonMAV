@@ -28,7 +28,7 @@ public class Cheers {
 
                 do {
 
-                        System.out.println(R.toUpperCase() + " ! ! !");
+                        System.out.println(R.toUpperCase() + " !!!");
 
                         q++;
                 } while (q < f);
